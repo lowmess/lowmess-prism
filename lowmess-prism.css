@@ -31,8 +31,12 @@ pre[class*="language-"] {
   color: #777777;
 }
 
-.token.punctuation, .token.operator {
+.token.punctuation {
   color: #AAAAAA;
+}
+
+.token.operator {
+  COLOR: #FBF1A9;
 }
 
 .namespace {
