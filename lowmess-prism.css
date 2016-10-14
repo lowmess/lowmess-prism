@@ -1,0 +1,110 @@
+/**
+ * lowmess theme for `prism.js`
+ * @author Alec Lmas (@lowmess)
+ */
+
+code[class*="language-"], pre[class*="language-"] {
+  background-color: #333333;
+  color: #F4F4F4;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+
+/* Code blocks */
+
+pre[class*="language-"] {
+  overflow: auto;
+}
+
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+  color: #777777;
+}
+
+.token.punctuation, .token.operator {
+  color: #AAAAAA;
+}
+
+.namespace {
+  opacity: 0.8;
+}
+
+.token.property, .token.keyword, .token.tag {
+  color: #f2930d;
+}
+
+.token.class-name {
+  color: #FBF1A9;
+  text-decoration: underline;
+}
+
+.token.boolean, .token.constant {
+  color: #9EEBCF;
+}
+
+.token.symbol, .token.deleted {
+  color: #D5008F;
+}
+
+.token.number {
+  color: #A463F2;
+}
+
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+  color: #FF725C;
+}
+
+.token.variable {
+  color: #96CCFF;
+}
+
+.token.entity {
+  color: #FBF1A9;
+  /* text-decoration: underline; */
+}
+
+.token.url {
+  color: #FF41B4;
+}
+
+.language-css .token.string, .style .token.string {
+  color: #19A974;
+}
+
+.token.atrule, .token.attr-value {
+  color: #9EEBCF;
+}
+
+.token.function {
+  color: #96CCFF;
+}
+
+.token.regex {
+  color: #FF725C;
+}
+
+.token.important {
+  color: #FF4136;
+}
+
+.token.important, .token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
