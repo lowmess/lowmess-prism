@@ -1,0 +1,23 @@
+{
+  "name": "lowmess-prism",
+  "version": "0.0.2",
+  "description": "Prism theme for lowmess.com",
+  "scripts": {
+    "minify": "cssnano lowmess-prism.css lowmess-prism.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowmess/lowmess-prism.git"
+  },
+  "keywords": [
+    "prism",
+    "theme",
+    "orange"
+  ],
+  "author": "Alec Lomas",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^3.8.0",
+    "cssnano-cli": "^1.0.5"
+  }
+}
