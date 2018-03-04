@@ -1,6 +1,6 @@
 /**
  * lowmess theme for `prism.js`
- * @author Alec Lmas (@lowmess)
+ * @author Alec Lomas (@lowmess)
  */
 
 @media only screen {
@@ -29,7 +29,7 @@
   }
 
   .token.comment, .token.prolog, .token.doctype, .token.cdata {
-    color: #756a5b;
+    color: #938776;
   }
 
   .token.punctuation {
