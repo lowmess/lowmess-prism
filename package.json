@@ -2,7 +2,7 @@
   "name": "lowmess-prism",
   "version": "0.2.3",
   "description": "Prism theme for lowmess.com",
-  "main": "lowmess-prism.css",
+  "main": "theme.js",
   "scripts": {
     "minify": "cssnano lowmess-prism.css lowmess-prism.min.css"
   },
