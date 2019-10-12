@@ -4,7 +4,7 @@
   "description": "Prism theme for lowmess.com",
   "main": "theme.js",
   "scripts": {
-    "minify": "cssnano lowmess-prism.css lowmess-prism.min.css"
+    "minify": "cssnano theme.css theme.min.css"
   },
   "repository": {
     "type": "git",
