@@ -14,130 +14,130 @@ const theme = {
   styles: [
     {
       types: ['comment', 'prolog', 'doctype', 'cdata'],
-      styles: {
+      style: {
         color: '#938776',
       },
     },
     {
       types: ['punctuation'],
-      styles: {
+      style: {
         color: '#a89e90',
       },
     },
     {
       types: ['operator'],
-      styles: {
+      style: {
         color: '#f2f99d',
       },
     },
     {
       types: ['namespace'],
-      styles: {
+      style: {
         opacity: 0.8,
       },
     },
     {
       types: ['property', 'keyword', 'tag'],
-      styles: {
+      style: {
         color: '#f2930d',
       },
     },
     {
       types: ['class-name'],
-      styles: {
+      style: {
         color: '#f2f99d',
         textDecoration: 'underline',
       },
     },
     {
       types: ['boolean', 'constant'],
-      styles: {
+      style: {
         color: '#adfada',
       },
     },
     {
       types: ['symbol', 'deleted'],
-      styles: {
+      style: {
         color: '#db0bc9',
       },
     },
     {
       types: ['number'],
-      styles: {
+      style: {
         color: '#bb68f6',
       },
     },
     {
       types: ['selector', 'attr-name', 'string', 'char', 'builtin', 'inserted'],
-      styles: {
+      style: {
         color: '#f67468',
       },
     },
     {
       types: ['variable'],
-      styles: {
+      style: {
         color: '#85b4f8',
       },
     },
     {
       types: ['entity'],
-      styles: {
+      style: {
         color: '#f2f99d',
       },
     },
     {
       types: ['url'],
-      styles: {
+      style: {
         color: '#f20ddf',
       },
     },
     {
       types: ['atrule', 'attr-value'],
-      styles: {
+      style: {
         color: '#adfada',
       },
     },
     {
       types: ['function'],
-      styles: {
+      style: {
         color: '#85b4f8',
       },
     },
     {
       types: ['regex'],
-      styles: {
+      style: {
         color: '#f67468',
       },
     },
     {
       types: ['important'],
-      styles: {
+      style: {
         color: '#f2200d',
         fontWeight: 700,
       },
     },
     {
       types: ['bold'],
-      styles: {
+      style: {
         fontWeight: 700,
       },
     },
     {
       types: ['italic'],
-      styles: {
+      style: {
         fontStyle: 'italic',
       },
     },
     {
       types: ['entity'],
-      styles: {
+      style: {
         cursor: 'help',
       },
     },
     {
       types: ['string'],
       languages: ['css', 'sass', 'scss', 'less'],
-      styles: {
+      style: {
         color: '#0df293',
       },
     },
