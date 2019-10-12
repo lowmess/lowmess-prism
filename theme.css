@@ -37,7 +37,7 @@
   }
 
   .token.operator {
-    COLOR: #f2f99d;
+    color: #f2f99d;
   }
 
   .namespace {
