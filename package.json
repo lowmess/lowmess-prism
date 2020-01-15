@@ -19,6 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "cssnano": "^3.8.0",
-    "cssnano-cli": "^1.0.5"
+    "cssnano-cli": "^1.0.5",
+    "prism-react-renderer": "^1.0.2"
   }
 }
