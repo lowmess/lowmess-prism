@@ -113,13 +113,13 @@ const theme = {
       types: ['important'],
       style: {
         color: '#f2200d',
-        fontWeight: 700,
+        fontWeight: '700',
       },
     },
     {
       types: ['bold'],
       style: {
-        fontWeight: 700,
+        fontWeight: '700',
       },
     },
     {
