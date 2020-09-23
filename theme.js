@@ -1,6 +1,6 @@
 const theme = {
   plain: {
-    backgroundColor: '#39342d',
+    backgroundColor: '#2a2722',
     color: '#f9f9f8',
     direction: 'ltr',
     textAlign: 'left',
@@ -15,7 +15,8 @@ const theme = {
     {
       types: ['comment', 'prolog', 'doctype', 'cdata'],
       style: {
-        color: '#938776',
+        color: '#a89e90',
+        fontStyle: 'italic',
       },
     },
     {
