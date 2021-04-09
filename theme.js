@@ -1,7 +1,23 @@
+const palette = {
+  black: 'hsl(35, 10%, 15%)',
+  gray: 'hsl(35, 10%, 50%)',
+  lightGray: 'hsl(35, 10%, 85%)',
+  white: 'hsl(35, 10%, 95%)',
+  orange: 'hsl(35, 90%, 50%)',
+  red: 'hsl(5, 90%, 70%)',
+  ice: 'hsl(185, 85%, 75%)',
+  blue: 'hsl(215, 85%, 75%)',
+  olive: 'hsl(125, 90%, 75%)',
+  gold: 'hsl(65, 40%, 60%)',
+  lavender: 'hsl(275, 90%, 80%)',
+
+  warning: 'hsl(5, 90%, 50%)',
+}
+
 const theme = {
   plain: {
-    backgroundColor: '#2a2722',
-    color: '#f9f9f8',
+    backgroundColor: palette.black,
+    color: palette.white,
     direction: 'ltr',
     textAlign: 'left',
     whiteSpace: 'pre',
@@ -15,20 +31,20 @@ const theme = {
     {
       types: ['comment', 'prolog', 'doctype', 'cdata'],
       style: {
-        color: '#a89e90',
+        color: palette.gray,
         fontStyle: 'italic',
       },
     },
     {
-      types: ['punctuation'],
+      types: ['atrule', 'punctuation'],
       style: {
-        color: '#a89e90',
+        color: palette.lightGray,
       },
     },
     {
       types: ['operator'],
       style: {
-        color: '#f2f99d',
+        color: palette.gold,
       },
     },
     {
@@ -38,82 +54,83 @@ const theme = {
       },
     },
     {
-      types: ['property', 'keyword', 'tag'],
+      types: ['keyword'],
       style: {
-        color: '#f2930d',
+        color: palette.red,
       },
     },
     {
       types: ['class-name'],
       style: {
-        color: '#f2f99d',
-        textDecoration: 'underline',
+        color: palette.lightGray,
       },
     },
     {
-      types: ['boolean', 'constant'],
+      types: ['class-name'], // `class-name` overrules `tag` in JSX
+      languages: ['jsx', 'tsx'],
       style: {
-        color: '#adfada',
+        color: palette.blue,
       },
     },
     {
-      types: ['symbol', 'deleted'],
+      types: ['tag'],
       style: {
-        color: '#db0bc9',
+        color: palette.blue,
       },
     },
     {
       types: ['number'],
       style: {
-        color: '#bb68f6',
+        color: palette.ice,
       },
     },
     {
-      types: ['selector', 'attr-name', 'string', 'char', 'builtin', 'inserted'],
+      types: ['attr-name', 'string', 'char', 'builtin', 'inserted'],
       style: {
-        color: '#f67468',
+        color: palette.red,
+      },
+    },
+    {
+      types: ['string'],
+      languages: ['css', 'sass', 'scss', 'less'],
+      style: {
+        color: palette.olive,
       },
     },
     {
       types: ['variable'],
       style: {
-        color: '#85b4f8',
+        color: palette.lavender,
       },
     },
     {
       types: ['entity'],
       style: {
-        color: '#f2f99d',
+        color: palette.gold,
       },
     },
     {
-      types: ['url'],
+      types: ['selector', 'attr-value'],
       style: {
-        color: '#f20ddf',
-      },
-    },
-    {
-      types: ['atrule', 'attr-value'],
-      style: {
-        color: '#adfada',
+        color: palette.orange,
       },
     },
     {
       types: ['function'],
       style: {
-        color: '#85b4f8',
+        color: palette.lavender,
       },
     },
     {
       types: ['regex'],
       style: {
-        color: '#f67468',
+        color: palette.red,
       },
     },
     {
       types: ['important'],
       style: {
-        color: '#f2200d',
+        color: palette.warning,
         fontWeight: '700',
       },
     },
@@ -133,13 +150,6 @@ const theme = {
       types: ['entity'],
       style: {
         cursor: 'help',
-      },
-    },
-    {
-      types: ['string'],
-      languages: ['css', 'sass', 'scss', 'less'],
-      style: {
-        color: '#0df293',
       },
     },
   ],
