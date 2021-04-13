@@ -1,7 +1,7 @@
 const palette = {
   black: 'hsl(35, 10%, 15%)',
-  gray: 'hsl(35, 10%, 50%)',
-  lightGray: 'hsl(35, 10%, 85%)',
+  gray: 'hsl(35, 10%, 55%)',
+  lightGray: 'hsl(35, 10%, 75%)',
   white: 'hsl(35, 10%, 95%)',
   orange: 'hsl(35, 90%, 50%)',
   red: 'hsl(5, 90%, 70%)',
