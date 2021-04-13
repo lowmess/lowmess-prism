@@ -1,6 +1,6 @@
 {
   "name": "lowmess-prism",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Prism theme for lowmess.com",
   "main": "theme.js",
   "scripts": {
